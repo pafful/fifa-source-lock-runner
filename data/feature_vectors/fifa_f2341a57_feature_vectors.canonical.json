@@ -1,0 +1,32 @@
+{
+  "run_id": "fifa_f2341a57",
+  "fixture": "Argentina v Switzerland",
+  "prediction_mode": "pre_match",
+  "prediction_cutoff_datetime": "2026-07-08T17:44:13.162254+00:00",
+  "feature_schema_version": "1.0",
+  "features": [
+    {
+      "feature_name": "pdf_sources_count",
+      "value": 1,
+      "source_urls": [
+        "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      ],
+      "aggregation_method": "count",
+      "leakage_check_status": "pending"
+    },
+    {
+      "feature_name": "total_records_extracted",
+      "value": 1,
+      "source_urls": [
+        "https://www.fifa.com",
+        "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      ],
+      "aggregation_method": "sum",
+      "leakage_check_status": "pending"
+    }
+  ],
+  "missing_data": [],
+  "limitations": [
+    "MVP feature vector only counts sources and extracted rows"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "fifa_825f7fbf",
+  "fixture": "England v DR Congo",
+  "passed": true,
+  "checks": [
+    {
+      "rule": "source_pre_match_safety",
+      "status": "pass",
+      "source_url": "https://www.fifa.com",
+      "details": "No obvious post-match leakage detected in MVP."
+    }
+  ]
+}

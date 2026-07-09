@@ -1,0 +1,11 @@
+{
+  "run_id": "fifa_be2e181e",
+  "passed": true,
+  "checks": [
+    {
+      "rule": "target_match_exclusion",
+      "status": "pass",
+      "details": "No target match result included in MVP."
+    }
+  ]
+}

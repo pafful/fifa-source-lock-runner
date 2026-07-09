@@ -1,0 +1,29 @@
+{
+  "run_id": "fifa_820d6ebc",
+  "fixture": "England v DR Congo",
+  "prediction_mode": "pre_match",
+  "prediction_cutoff_datetime": "2026-07-08T17:28:20.168414+00:00",
+  "feature_schema_version": "1.0",
+  "features": [
+    {
+      "feature_name": "pdf_sources_count",
+      "value": 0,
+      "source_urls": [],
+      "aggregation_method": "count",
+      "leakage_check_status": "pending"
+    },
+    {
+      "feature_name": "total_records_extracted",
+      "value": 1,
+      "source_urls": [
+        "https://www.fifa.com"
+      ],
+      "aggregation_method": "sum",
+      "leakage_check_status": "pending"
+    }
+  ],
+  "missing_data": [],
+  "limitations": [
+    "MVP feature vector only counts sources and extracted rows"
+  ]
+}

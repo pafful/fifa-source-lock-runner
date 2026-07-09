@@ -1,0 +1,48 @@
+{
+  "run_id": "fifa_08959469",
+  "fixture": "England v DR Congo",
+  "prediction_mode": "pre_match",
+  "retrieval_timestamp": "2026-07-02T16:42:34.718307+00:00",
+  "sources": [
+    {
+      "source_name": "FIFA website",
+      "source_type": "rendered_html_network_capture",
+      "source_url": "https://www.fifa.com",
+      "extraction_method": "playwright_network_capture",
+      "records_extracted": 1,
+      "status": "captured",
+      "artefacts": {
+        "dom": "data/raw/fifa_08959469/dom_snapshot.html",
+        "text": "data/raw/fifa_08959469/page_text.txt",
+        "network": "data/raw/fifa_08959469/network_request_inventory.json",
+        "trace": "data/raw/fifa_08959469/trace.zip"
+      }
+    },
+    {
+      "source_name": "PDF report",
+      "source_type": "official_pdf",
+      "source_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "extraction_method": "httpx_download_pdf_pdfplumber_parse",
+      "records_extracted": 0,
+      "status": "downloaded",
+      "sha256": "3df79d34abbca99308e79cb94461c1893582604d68329a41fd4bec1885e6adb4",
+      "size_bytes": 13264,
+      "artefacts": {
+        "download": {
+          "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "pdf_path": "data/pdfs/fifa_08959469/dummy.pdf",
+          "status": "downloaded",
+          "sha256": "3df79d34abbca99308e79cb94461c1893582604d68329a41fd4bec1885e6adb4",
+          "size_bytes": 13264
+        },
+        "parsed": {
+          "pdf_path": "data/pdfs/fifa_08959469/dummy.pdf",
+          "text_file": "data/parsed/fifa_08959469/dummy_text_pages.json",
+          "table_file": "data/parsed/fifa_08959469/dummy_tables_raw.csv",
+          "pages_parsed": 1,
+          "table_rows_extracted": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "run_id": "fifa_ed7df7d0",
+  "fixture": "England v DR Congo",
+  "prediction_mode": "pre_match",
+  "feature_schema_version": "1.0",
+  "features": [
+    {
+      "feature_name": "example_goals_for_to_cutoff",
+      "team_a_value": null,
+      "team_b_value": null,
+      "difference_value": null,
+      "source_urls": [],
+      "aggregation_method": "sum",
+      "leakage_check_status": "pending"
+    }
+  ],
+  "missing_data": [],
+  "limitations": [
+    "MVP placeholder feature vector"
+  ]
+}
